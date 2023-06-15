@@ -1,0 +1,1673 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Tugas_prosaindata/21-113_20-209_UAS_Pro';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="21-113_Mohammad%20Ali%20Irfan_UTS.html">UTS Proyek Sains Data</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="Tugas_Pagerank.html">membuat objek Graph</a></li>
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="Topik%20Modeling.html">Topic Modeling</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FTugas_prosaindata/21-113_20-209_UAS_Pro.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Tugas_prosaindata/21-113_20-209_UAS_Pro.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1><no title></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <p>#Tugas uas</p>
+<p>Nama nim : Mohammad Ali Irfan 210411100113(ketua), Alfis Cendekia Afghanis 200411100209</p>
+<p>Data ini diambil dari yahoo financial,type data dari dataset ini ada number, kontinu, data in tentang keuangan dalam sebuah perusahaan PT,KAI</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;KAI.csv&#39;</span><span class="p">)</span>
+<span class="n">df_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-8fc4767f-f64a-48b1-b7f2-1e14fca2a6e5">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Adj Close</th>
+      <th>Volume</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022-06-14</td>
+      <td>175.449997</td>
+      <td>175.500000</td>
+      <td>173.009995</td>
+      <td>174.389999</td>
+      <td>173.346924</td>
+      <td>40400</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2022-06-15</td>
+      <td>176.889999</td>
+      <td>183.470001</td>
+      <td>174.509995</td>
+      <td>181.279999</td>
+      <td>180.195709</td>
+      <td>54600</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2022-06-16</td>
+      <td>177.339996</td>
+      <td>177.339996</td>
+      <td>168.429993</td>
+      <td>169.229996</td>
+      <td>168.217789</td>
+      <td>86800</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2022-06-17</td>
+      <td>172.630005</td>
+      <td>177.289993</td>
+      <td>171.660004</td>
+      <td>175.039993</td>
+      <td>173.993042</td>
+      <td>106800</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2022-06-21</td>
+      <td>175.460007</td>
+      <td>179.779999</td>
+      <td>172.940002</td>
+      <td>176.399994</td>
+      <td>175.344894</td>
+      <td>38700</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2022-06-22</td>
+      <td>174.210007</td>
+      <td>178.160004</td>
+      <td>174.210007</td>
+      <td>177.199997</td>
+      <td>176.140121</td>
+      <td>32900</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2022-06-23</td>
+      <td>176.339996</td>
+      <td>180.050003</td>
+      <td>176.339996</td>
+      <td>179.199997</td>
+      <td>178.128159</td>
+      <td>35100</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8fc4767f-f64a-48b1-b7f2-1e14fca2a6e5')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8fc4767f-f64a-48b1-b7f2-1e14fca2a6e5 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8fc4767f-f64a-48b1-b7f2-1e14fca2a6e5');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  </div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(251, 7)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_high</span><span class="o">=</span> <span class="n">df_data</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># transform univariate time series to supervised learning problem</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">array</span>
+<span class="c1"># split a univariate sequence into samples</span>
+<span class="k">def</span> <span class="nf">split_sequence</span><span class="p">(</span><span class="n">sequence</span><span class="p">,</span> <span class="n">n_steps</span><span class="p">):</span>
+    <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(),</span> <span class="nb">list</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)):</span>
+    <span class="c1"># find the end of this pattern</span>
+        <span class="n">end_ix</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">n_steps</span>
+    <span class="c1"># check if we are beyond the sequence</span>
+        <span class="k">if</span> <span class="n">end_ix</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+            <span class="k">break</span>
+    <span class="c1"># gather input and output parts of the pattern</span>
+        <span class="c1"># print(i, end_ix)</span>
+        <span class="n">seq_x</span><span class="p">,</span> <span class="n">seq_y</span> <span class="o">=</span> <span class="n">sequence</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">end_ix</span><span class="p">],</span> <span class="n">sequence</span><span class="p">[</span><span class="n">end_ix</span><span class="p">]</span>
+        <span class="n">X</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">seq_x</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">seq_y</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">array</span><span class="p">(</span><span class="n">X</span><span class="p">),</span> <span class="n">array</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>#tunning data</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n_steps</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">split_sequence</span><span class="p">(</span><span class="n">df_high</span><span class="p">,</span> <span class="n">n_steps</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">y</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(249, 2) (249,)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># column names to X and y data frames</span>
+<span class="n">df_X</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;t-&#39;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_steps</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)])</span>
+<span class="n">df_y</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;t+1 (prediction)&#39;</span><span class="p">])</span>
+
+<span class="c1"># concat df_X and df_y</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_X</span><span class="p">,</span> <span class="n">df_y</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># df_X.head()</span>
+<span class="c1"># df_y.head()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-eb358a7d-1c57-4e70-b889-165063853b7f">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>t-1</th>
+      <th>t-0</th>
+      <th>t+1 (prediction)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>175.500000</td>
+      <td>183.470001</td>
+      <td>177.339996</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>183.470001</td>
+      <td>177.339996</td>
+      <td>177.289993</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>177.339996</td>
+      <td>177.289993</td>
+      <td>179.779999</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-eb358a7d-1c57-4e70-b889-165063853b7f')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-eb358a7d-1c57-4e70-b889-165063853b7f button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-eb358a7d-1c57-4e70-b889-165063853b7f');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  </div></div>
+</div>
+<p>#prepo</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">MinMaxScaler</span>
+<span class="n">scaler</span><span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
+<span class="n">X_norm</span><span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df_X</span><span class="p">)</span>
+<span class="n">y_norm</span><span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df_y</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_norm</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[0.24234395, 0.37427576],
+       [0.37427576, 0.27280242],
+       [0.27280242, 0.27197469],
+       [0.27197469, 0.31319313],
+       [0.31319313, 0.28637646],
+       [0.28637646, 0.31766266],
+       [0.31766266, 0.39380884],
+       [0.39380884, 0.40556197],
+       [0.40556197, 0.42790936],
+       [0.42790936, 0.39231908],
+       [0.39231908, 0.39364338],
+       [0.39364338, 0.41648737],
+       [0.41648737, 0.36202605],
+       [0.36202605, 0.41119011],
+       [0.41119011, 0.47674229],
+       [0.47674229, 0.48717084],
+       [0.48717084, 0.37179283],
+       [0.37179283, 0.39745063],
+       [0.39745063, 0.36351606],
+       [0.36351606, 0.35159748],
+       [0.35159748, 0.43585499],
+       [0.43585499, 0.47343163],
+       [0.47343163, 0.53964583],
+       [0.53964583, 0.5881476 ],
+       [0.5881476 , 0.58384377],
+       [0.58384377, 0.63069035],
+       [0.63069035, 0.57573243],
+       [0.57573243, 0.59493462],
+       [0.59493462, 0.65883134],
+       [0.65883134, 0.68167505],
+       [0.68167505, 0.72372122],
+       [0.72372122, 0.76047012],
+       [0.76047012, 0.70220155],
+       [0.70220155, 0.69061412],
+       [0.69061412, 0.60403912],
+       [0.60403912, 0.5659659 ],
+       [0.5659659 , 0.59344486],
+       [0.59344486, 0.52358885],
+       [0.52358885, 0.55189529],
+       [0.55189529, 0.57904309],
+       [0.57904309, 0.57225609],
+       [0.57225609, 0.6729017 ],
+       [0.6729017 , 0.66710811],
+       [0.66710811, 0.60966726],
+       [0.60966726, 0.67041877],
+       [0.67041877, 0.69144185],
+       [0.69144185, 0.59675552],
+       [0.59675552, 0.57705675],
+       [0.57705675, 0.57440813],
+       [0.57440813, 0.59956959],
+       [0.59956959, 0.5972521 ],
+       [0.5972521 , 0.424433  ],
+       [0.424433  , 0.41416989],
+       [0.41416989, 0.37642781],
+       [0.37642781, 0.31832468],
+       [0.31832468, 0.33835459],
+       [0.33835459, 0.30359204],
+       [0.30359204, 0.40307904],
+       [0.40307904, 0.39943723],
+       [0.39943723, 0.40655514],
+       [0.40655514, 0.389505  ],
+       [0.389505  , 0.33156757],
+       [0.33156757, 0.22115543],
+       [0.22115543, 0.24019191],
+       [0.24019191, 0.15924507],
+       [0.15924507, 0.20923685],
+       [0.20923685, 0.2168516 ],
+       [0.2168516 , 0.31484859],
+       [0.31484859, 0.23274286],
+       [0.23274286, 0.14037402],
+       [0.14037402, 0.18490312],
+       [0.18490312, 0.18043359],
+       [0.18043359, 0.2112232 ],
+       [0.2112232 , 0.21337524],
+       [0.21337524, 0.16023823],
+       [0.16023823, 0.19980122],
+       [0.19980122, 0.23655011],
+       [0.23655011, 0.20261553],
+       [0.20261553, 0.16090052],
+       [0.16090052, 0.08194002],
+       [0.08194002, 0.09220314],
+       [0.09220314, 0.0494952 ],
+       [0.0494952 , 0.        ],
+       [0.        , 0.07780163],
+       [0.07780163, 0.075153  ],
+       [0.075153  , 0.13309043],
+       [0.13309043, 0.1759643 ],
+       [0.1759643 , 0.11968208],
+       [0.11968208, 0.10329423],
+       [0.10329423, 0.12348958],
+       [0.12348958, 0.16090052],
+       [0.16090052, 0.21221638],
+       [0.21221638, 0.27296812],
+       [0.27296812, 0.27363015],
+       [0.27363015, 0.30243342],
+       [0.30243342, 0.29597754],
+       [0.29597754, 0.33388507],
+       [0.33388507, 0.34083753],
+       [0.34083753, 0.20195326],
+       [0.20195326, 0.24135077],
+       [0.24135077, 0.28025147],
+       [0.28025147, 0.32064218],
+       [0.32064218, 0.33603711],
+       [0.33603711, 0.4702864 ],
+       [0.4702864 , 0.48419134],
+       [0.48419134, 0.41847371],
+       [0.41847371, 0.47475568],
+       [0.47475568, 0.4634994 ],
+       [0.4634994 , 0.47541797],
+       [0.47541797, 0.56447615],
+       [0.56447615, 0.52309228],
+       [0.52309228, 0.49015061],
+       [0.49015061, 0.51216687],
+       [0.51216687, 0.53782492],
+       [0.53782492, 0.53401742],
+       [0.53401742, 0.49577877],
+       [0.49577877, 0.5326931 ],
+       [0.5326931 , 0.56397931],
+       [0.56397931, 0.55106756],
+       [0.55106756, 0.50256578],
+       [0.50256578, 0.49809625],
+       [0.49809625, 0.42360528],
+       [0.42360528, 0.42145348],
+       [0.42145348, 0.4136733 ],
+       [0.4136733 , 0.39347795],
+       [0.39347795, 0.49693763],
+       [0.49693763, 0.55901345],
+       [0.55901345, 0.43651703],
+       [0.43651703, 0.28703849],
+       [0.28703849, 0.26154614],
+       [0.26154614, 0.26767087],
+       [0.26767087, 0.31749695],
+       [0.31749695, 0.2812449 ],
+       [0.2812449 , 0.28157578],
+       [0.28157578, 0.2829001 ],
+       [0.2829001 , 0.30177113],
+       [0.30177113, 0.32709805],
+       [0.32709805, 0.3069027 ],
+       [0.3069027 , 0.31633834],
+       [0.31633834, 0.35209407],
+       [0.35209407, 0.32279422],
+       [0.32279422, 0.39430543],
+       [0.39430543, 0.42890253],
+       [0.42890253, 0.48965402],
+       [0.48965402, 0.56348272],
+       [0.56348272, 0.57573243],
+       [0.57573243, 0.67223966],
+       [0.67223966, 0.66975673],
+       [0.66975673, 0.56397931],
+       [0.56397931, 0.55785458],
+       [0.55785458, 0.61844062],
+       [0.61844062, 0.6729017 ],
+       [0.6729017 , 0.72554211],
+       [0.72554211, 0.71378899],
+       [0.71378899, 0.66909445],
+       [0.66909445, 0.67704009],
+       [0.67704009, 0.67919212],
+       [0.67919212, 0.72173488],
+       [0.72173488, 0.84009266],
+       [0.84009266, 0.89041533],
+       [0.89041533, 0.89836122],
+       [0.89836122, 0.87303431],
+       [0.87303431, 0.82536   ],
+       [0.82536   , 0.84290673],
+       [0.84290673, 0.8127794 ],
+       [0.8127794 , 0.69491794],
+       [0.69491794, 0.72570756],
+       [0.72570756, 0.7078297 ],
+       [0.7078297 , 0.70931971],
+       [0.70931971, 0.89240193],
+       [0.89240193, 0.97848034],
+       [0.97848034, 0.94338689],
+       [0.94338689, 0.9299783 ],
+       [0.9299783 , 0.91276273],
+       [0.91276273, 0.8639298 ],
+       [0.8639298 , 0.94454551],
+       [0.94454551, 0.93808964],
+       [0.93808964, 0.90481709],
+       [0.90481709, 0.91822543],
+       [0.91822543, 1.        ],
+       [1.        , 0.99304754],
+       [0.99304754, 0.94586983],
+       [0.94586983, 0.94586983],
+       [0.94586983, 0.94653185],
+       [0.94653185, 0.86260549],
+       [0.86260549, 0.75318652],
+       [0.75318652, 0.82122161],
+       [0.82122161, 0.66445948],
+       [0.66445948, 0.69624226],
+       [0.69624226, 0.64923024],
+       [0.64923024, 0.70170496],
+       [0.70170496, 0.74143338],
+       [0.74143338, 0.72041056],
+       [0.72041056, 0.68581344],
+       [0.68581344, 0.61198476],
+       [0.61198476, 0.64608502],
+       [0.64608502, 0.68680687],
+       [0.68680687, 0.72868733],
+       [0.72868733, 0.76328419],
+       [0.76328419, 0.78894224],
+       [0.78894224, 0.81211711],
+       [0.81211711, 0.74126793],
+       [0.74126793, 0.59294803],
+       [0.59294803, 0.53302426],
+       [0.53302426, 0.5717595 ],
+       [0.5717595 , 0.60569433],
+       [0.60569433, 0.62771058],
+       [0.62771058, 0.59857641],
+       [0.59857641, 0.60139048],
+       [0.60139048, 0.58268491],
+       [0.58268491, 0.59824528],
+       [0.59824528, 0.53583833],
+       [0.53583833, 0.55172984],
+       [0.55172984, 0.5754013 ],
+       [0.5754013 , 0.57060088],
+       [0.57060088, 0.51845705],
+       [0.51845705, 0.47078299],
+       [0.47078299, 0.43519271],
+       [0.43519271, 0.46664461],
+       [0.46664461, 0.47376252],
+       [0.47376252, 0.43270978],
+       [0.43270978, 0.65088545],
+       [0.65088545, 0.53352083],
+       [0.53352083, 0.58202286],
+       [0.58202286, 0.59658982],
+       [0.59658982, 0.59013396],
+       [0.59013396, 0.64442957],
+       [0.64442957, 0.5696077 ],
+       [0.5696077 , 0.58334718],
+       [0.58334718, 0.60039732],
+       [0.60039732, 0.56563477],
+       [0.56563477, 0.59874187],
+       [0.59874187, 0.62274447],
+       [0.62274447, 0.66429402],
+       [0.66429402, 0.6634663 ],
+       [0.6634663 , 0.66379745],
+       [0.66379745, 0.58500239],
+       [0.58500239, 0.54858463],
+       [0.54858463, 0.51746387],
+       [0.51746387, 0.50587644],
+       [0.50587644, 0.49097834],
+       [0.49097834, 0.51431866],
+       [0.51431866, 0.70733311],
+       [0.70733311, 0.69889089],
+       [0.69889089, 0.8104619 ],
+       [0.8104619 , 0.95216026],
+       [0.95216026, 0.91359045],
+       [0.91359045, 0.89173965],
+       [0.89173965, 0.91656998]])
+</pre></div>
+</div>
+</div>
+</div>
+<p>#split data</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_norm</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>#Knn</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsRegressor</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span>
+<span class="n">model_knn</span> <span class="o">=</span> <span class="n">KNeighborsRegressor</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">model_knn</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">y_pred</span><span class="o">=</span><span class="n">model_knn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">r_squared</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;R-squared:&quot;</span><span class="p">,</span> <span class="n">r_squared</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>R-squared: 0.9280754293878422
+</pre></div>
+</div>
+</div>
+</div>
+<p>#regresi linear</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">y_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">r_squared</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;R-squared:&quot;</span><span class="p">,</span> <span class="n">r_squared</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>R-squared: 0.9433787620646582
+</pre></div>
+</div>
+</div>
+</div>
+<p>#Decicion Tree</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeRegressor</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">DecisionTreeRegressor</span><span class="p">()</span>
+<span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">y_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">r_squared</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;R-squared:&quot;</span><span class="p">,</span> <span class="n">r_squared</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>R-squared: 0.8440171816677885
+</pre></div>
+</div>
+</div>
+</div>
+<p>#Mse</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span>
+<span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>30.65725189844552
+</pre></div>
+</div>
+</div>
+</div>
+<p>#mape</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_absolute_percentage_error</span>
+<span class="n">mean_absolute_percentage_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.02321313336000019
+</pre></div>
+</div>
+</div>
+</div>
+<p>#result</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y_test</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(50,)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y_pred</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(50,)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_y_test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;y_test&#39;</span><span class="p">])</span>
+<span class="n">df_y_pred</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">y_pred</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;y_pred&#39;</span><span class="p">])</span>
+
+<span class="n">df_hasil</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_y_test</span><span class="p">,</span> <span class="n">df_y_pred</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_hasil</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-fdd12a60-3612-44bb-a446-3e5d08d6fbc8">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>y_test</th>
+      <th>y_pred</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>219.100006</td>
+      <td>213.600006</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>214.770004</td>
+      <td>201.279999</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>173.100006</td>
+      <td>169.339996</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>201.509995</td>
+      <td>195.639999</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>201.470001</td>
+      <td>197.130005</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>170.539993</td>
+      <td>177.350006</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>196.910004</td>
+      <td>201.889999</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>215.130005</td>
+      <td>213.600006</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>189.479996</td>
+      <td>193.460007</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>195.330002</td>
+      <td>195.429993</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>181.449997</td>
+      <td>179.399994</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>196.679993</td>
+      <td>210.470001</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>165.399994</td>
+      <td>168.899994</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>215.520004</td>
+      <td>218.039993</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>210.720001</td>
+      <td>217.919998</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>193.059998</td>
+      <td>195.720001</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>179.199997</td>
+      <td>189.270004</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>194.929993</td>
+      <td>187.229996</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>195.029999</td>
+      <td>196.059998</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>177.389999</td>
+      <td>174.919998</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>195.399994</td>
+      <td>194.190002</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>180.619995</td>
+      <td>179.089996</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>211.779999</td>
+      <td>202.839996</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>170.580002</td>
+      <td>168.320007</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>202.630005</td>
+      <td>194.929993</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>197.190002</td>
+      <td>193.229996</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>194.199997</td>
+      <td>194.190002</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>191.800003</td>
+      <td>191.929993</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>170.479996</td>
+      <td>174.919998</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>192.460007</td>
+      <td>195.639999</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>191.220001</td>
+      <td>198.220001</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>184.559998</td>
+      <td>190.440002</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>203.250000</td>
+      <td>200.960007</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>173.500000</td>
+      <td>165.809998</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>177.029999</td>
+      <td>179.130005</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>184.649994</td>
+      <td>179.089996</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>196.389999</td>
+      <td>203.589996</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>194.630005</td>
+      <td>194.899994</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>185.699997</td>
+      <td>182.100006</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>213.050003</td>
+      <td>216.330002</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>203.080002</td>
+      <td>205.649994</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>195.270004</td>
+      <td>202.039993</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>189.580002</td>
+      <td>200.179993</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>204.460007</td>
+      <td>201.889999</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>175.149994</td>
+      <td>173.960007</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>221.270004</td>
+      <td>216.000000</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>194.000000</td>
+      <td>195.720001</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>180.039993</td>
+      <td>179.779999</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>172.929993</td>
+      <td>165.809998</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>196.509995</td>
+      <td>200.660004</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fdd12a60-3612-44bb-a446-3e5d08d6fbc8')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-fdd12a60-3612-44bb-a446-3e5d08d6fbc8 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-fdd12a60-3612-44bb-a446-3e5d08d6fbc8');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  </div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>160.860001
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>221.270004
+</pre></div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Tugas_prosaindata"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
