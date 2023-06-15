@@ -6671,12 +6671,12 @@ Name: stemming, Length: 810, dtype: object
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create CBOW model</span>
 <span class="n">model1</span> <span class="o">=</span> <span class="n">gensim</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Word2Vec</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;stemming&#39;</span><span class="p">],</span> <span class="n">min_count</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
                               <span class="n">vector_size</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">window</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span>
- 
+
 <span class="c1"># Print results</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cosine similarity between &#39;teknologi&#39; &quot;</span> <span class="o">+</span>
                <span class="s2">&quot;and &#39;system&#39; - CBOW : &quot;</span><span class="p">,</span>
     <span class="n">model1</span><span class="o">.</span><span class="n">wv</span><span class="o">.</span><span class="n">similarity</span><span class="p">(</span><span class="s1">&#39;teknologi&#39;</span><span class="p">,</span> <span class="s1">&#39;system&#39;</span><span class="p">))</span>
-     
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cosine similarity between &#39;teknologi&#39; &quot;</span> <span class="o">+</span>
                  <span class="s2">&quot;and &#39;mobile&#39; - CBOW : &quot;</span><span class="p">,</span>
       <span class="n">model1</span><span class="o">.</span><span class="n">wv</span><span class="o">.</span><span class="n">similarity</span><span class="p">(</span><span class="s1">&#39;teknologi&#39;</span><span class="p">,</span> <span class="s1">&#39;mobile&#39;</span><span class="p">))</span>
@@ -6927,12 +6927,12 @@ Name: text_join, dtype: object
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
 
-<span class="c1"># banyaknya term yang akan digunakan, </span>
-<span class="c1"># di pilih berdasarkan top max_features </span>
+<span class="c1"># banyaknya term yang akan digunakan,</span>
+<span class="c1"># di pilih berdasarkan top max_features</span>
 <span class="c1"># yang diurutkan berdasarkan term frequency seluruh corpus</span>
 <span class="n">max_features</span> <span class="o">=</span> <span class="mi">100000</span>
 
-<span class="c1"># Feature Engineering </span>
+<span class="c1"># Feature Engineering</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;------- TF-IDF data -------&quot;</span><span class="p">)</span>
 
 <span class="n">tf_idf</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span><span class="n">max_features</span><span class="o">=</span><span class="n">max_features</span><span class="p">,</span> <span class="n">binary</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -6951,7 +6951,7 @@ TF-IDF  &lt;class &#39;numpy.ndarray&#39;&gt; (810, 6440)
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">terms</span> <span class="o">=</span> <span class="n">tf_idf</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">()</span> 
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">terms</span> <span class="o">=</span> <span class="n">tf_idf</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">()</span>
 
 <span class="c1"># sum tfidf frequency of each term through documents</span>
 <span class="n">sums</span> <span class="o">=</span> <span class="n">tfidf_mat</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -7156,7 +7156,7 @@ TF-IDF  &lt;class &#39;numpy.ndarray&#39;&gt; (810, 6440)
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># hasil dari tf-idf </span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># hasil dari tf-idf</span>
 <span class="n">dfbtf</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tfidf_mat</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="n">terms</span><span class="p">])</span>
 <span class="n">dfbtf</span>
 </pre></div>
@@ -8144,7 +8144,7 @@ nilai k maksimum untuk data menggunakan pca adalah nilai k ke- [5]
 <span class="n">data_nb</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># untuk menyimpan score naive bayes</span>
 <span class="n">data_knn</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># untuk menyimpan score score knn</span>
 <span class="n">data1</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1"># untuk menyimpan data akurasi yang memiliki score terbesar</span>
-<span class="n">data2</span> <span class="o">=</span> <span class="p">[]</span> 
+<span class="n">data2</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">500</span><span class="p">):</span>
   <span class="n">pca_abstrak</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="n">i</span><span class="p">)</span>
   <span class="n">principalComponents_abstrak</span> <span class="o">=</span> <span class="n">pca_abstrak</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">dfbtf</span><span class="p">)</span>
